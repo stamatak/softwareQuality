@@ -1,0 +1,4 @@
+the subdirectory "perSiteLogLikelihoods" contains data for deviations induced by addition orders of per site log-likes.
+
+the subdirectory "sequentialVersusParallelDeviation" contains data for reproducing the deviation between sequential and parallel runs due to different
+round-off errors induced by parallel reduction operations
