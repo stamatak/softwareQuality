@@ -1,0 +1,8 @@
+command line arguments for RAxML to reprduce parallel non-reproducibility:
+
+raxmlHPC-AVX -p 12345 -m GTRGAMMA -s 354 -n T1
+raxmlHPC-PTHREADS-AVX -T 2 -p 12345 -m GTRGAMMA -s 354 -n T2
+
+The experiments were conducted with RAxML release 8.1.17 available at:
+
+https://github.com/stamatak/standard-RAxML/releases
